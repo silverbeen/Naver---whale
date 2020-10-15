@@ -7,6 +7,7 @@ function PopupTodo({todo}){
         <div style={{display:todo}} className="modal" id="popup-todo">
             <span>할 일 목록</span>
             <div className="todo-middle">
+                <div className=""></div>
                 <input type="checkbox"/>
                 안녕
             </div>
