@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './Component.css';
 
 function Clock() {
+
     const localDate= new Date();
     const [hours, setHours] = useState(localDate.getHours());
     const [min, setMin] = useState(localDate.getMinutes());
     const [sec, setSec] = useState(localDate.getSeconds());
-    const [year, setYear] = useState(localDate.getFullYear());
+    const [year, setYear] = useState(localDate.getFullYear( ));
     const [month, setMonth] = useState(localDate.getMonth());
     const [date, setDate] = useState(localDate.getDate());
 
