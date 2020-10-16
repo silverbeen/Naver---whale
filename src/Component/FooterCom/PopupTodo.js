@@ -3,6 +3,7 @@ import './Footer.css';
 
 function PopupTodo({todo}){
 
+    
     return(
         <div style={{display:todo}} className="modal" id="popup-todo">
             <span>할 일 목록</span>

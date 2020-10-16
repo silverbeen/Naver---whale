@@ -2,7 +2,8 @@ import React from 'react';
 import './Footer.css';
 
 function PopupWeather({weather}){
-    return (
+    
+    return 
         <>
             <div style={{display:weather}}className="modal" id="popup-weather">
                 <div className="weather-top">
