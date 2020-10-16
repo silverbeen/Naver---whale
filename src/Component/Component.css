@@ -57,16 +57,24 @@ input:hover{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
-.footer{
+footer{
     box-sizing: border-box;
-    margin: 20px 10px;
+    padding:20px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
     bottom: 0;
 }
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+}
+
 .footer-left button{
     background: none;
     outline: none;
@@ -82,13 +90,12 @@ span{
     color: white;
     padding: 0 20px;
     margin: 0 10px;
+    cursor: pointer;
 }
 .footer-rigth span:hover{
-    width: 150px;
-    border: 0.5px solid gray;
+    padding: 5px 10px ;
     border-radius: 5px;
-    background-color: rgba(189, 179, 179, 0.171);
+    background-color: rgba(192, 184, 184, 0.171);
     outline: none;
     transition: 0.5s;
 }
-
