@@ -59,6 +59,7 @@
 }
 .weather-date span:nth-child(1){
     font-size: 30px;
+    color: white;
 }
 .weather-date span:nth-child(2){
     font-size: 13px;
